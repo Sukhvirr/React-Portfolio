@@ -11,7 +11,7 @@ const Skills = () => {
                      place-items-center md:flex md:justify-between md:items-center'>
     
 
-        <h2 className="primary-color text-4xl md:text-4xl font-bold m-4">
+        <h2 className="primary-color text-4xl md:text-4xl font-bold m-4 md:col-span-2">
             My <br/> Tech <br/> Stack
         </h2>
 

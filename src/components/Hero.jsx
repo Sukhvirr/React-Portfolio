@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] md:h-[70vh] mx-auto py-8 bg-black'>
 
-        <div className='col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[400px] -mt-20'>
+        <div className='col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[400px] -mt-40'>
             <img src={heroimage} alt="hero image"/>
         </div>
 
@@ -37,7 +37,7 @@ const Hero = () => {
             </p>
 
             <div className= 'my-8'>
-                <a href={resume} download="Sukvhir_Gill_Resume.pdf" className="px-6 py-3 w-full rounded-x1 mr-4
+                <a href={resume} download="Sukhvir_Gill_Resume.pdf" className="px-6 py-3 w-full rounded-x1 mr-4
                         bg-gradient-to-br from-orange-500 to-pink-500 text-white">
                     Download CV
                 </a>
